@@ -21,5 +21,6 @@ public class ClientController {
     @VerifierId
     public List<?> findClientControll(@PathVariable(value = "id") Long id) {
         return findClient.findCLient(id);
+        //TESTE
     }
 }
